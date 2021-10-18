@@ -21,7 +21,7 @@ Users should be able to:
 - See the correct content for each team member on the About page when the `+` icon is clicked
 
 ### Screenshot
-<img src="screenshots/desktop-home.png" alt="drawing" width="500"/>
+<img src="screenshots/myteam-virid.vercel.app_index.html.png" alt="drawing" width="500"/>
 <img src="screenshots/desktop-about.png" alt="drawing" width="500"/>
 <img src="screenshots/desktop-contact.png" alt="drawing" width="500"/>
 
