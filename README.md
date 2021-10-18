@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live Site](https://myteam-virid.vercel.app/)
+- Live Site URL: [Click Here!](https://myteam-virid.vercel.app/)
 
 
 ### Built with
