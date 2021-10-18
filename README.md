@@ -23,8 +23,10 @@ Users should be able to:
 ### Screenshots
 ### DESKTOP SITE
 <img src="screenshots/desktop-pack.png" alt="drawing" width="100%"/>
+
 ### TABLET SITE
 <img src="screenshots/tablet-pack.png" alt="drawing" width="100%"/>
+
 ###MOBILE SITE
 <img src="screenshots/mobile-pack.png" alt="drawing" width="100%"/>
 
