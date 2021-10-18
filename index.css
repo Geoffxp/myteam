@@ -408,6 +408,7 @@ input:focus {
     outline: none;
 }
 textarea {
+    resize: none;
     color: white;
     height: 125px;
     padding: 10px;
