@@ -21,7 +21,7 @@ Users should be able to:
 - See the correct content for each team member on the About page when the `+` icon is clicked
 
 ### Screenshot
-
+<img src="screenshots/desktop-home.png" alt="drawing" width="200"/>
 ![desktop-home](screenshots/desktop-home.png)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
