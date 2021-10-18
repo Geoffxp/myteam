@@ -1,3 +1,5 @@
+// CARD BUTTON ANIMATION
+
 const buttons = document.querySelectorAll(".cardBtn");
 buttons.forEach((btn) => {
     const cardBack = btn.previousElementSibling;
@@ -19,7 +21,12 @@ buttons.forEach((btn) => {
             cardFront.classList.remove("show")
         }
     })
+    let clicked = false;
     btn.addEventListener("mouseover", () => {
+        btn.addEventListener("touchstart", () => {
+            clicked = true;
+            btn.style.animation = ""
+        }, {once: true})
         if (cardFront.classList.contains("show")){
             btn.style.animation = "blueShift 0.5s forwards"
         } else {
@@ -28,13 +35,21 @@ buttons.forEach((btn) => {
         
     })
     btn.addEventListener("mouseleave", () => {
-        if (cardFront.classList.contains("show")){
-            btn.style.animation = "redShift 0.5s forwards"
+        if (clicked) {
+            clicked = false;
         } else {
-            btn.style.animation = "blueShift 0.5s forwards"
+            if (cardFront.classList.contains("show")){
+                btn.style.animation = "redShift 0.5s forwards"
+            } else {
+                btn.style.animation = "blueShift 0.5s forwards"
+            }
         }
+        
     })
 })
+
+// CONTACT VALIDATION
+
 const submit = document.querySelector('button[type="submit"]');
 const form = document.querySelector("#contactForm") ? 
     document.querySelector("#contactForm").elements :
@@ -78,6 +93,8 @@ inputs.forEach((input) => {
         input.classList.remove("invalid")
     })
 })
+
+// MOBILE MENU
 
 const hamburger = document.querySelector(".hamburger");
 const toggle = document.getElementById("mobileMenuToggle");

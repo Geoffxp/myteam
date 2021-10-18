@@ -603,14 +603,24 @@ label {
     flex-direction: column;
     padding: 25px;
 }
+.no-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    outline: none;
+}
 .cardBtn {
+    box-shadow:none;
     position: absolute;
     bottom: -23px;
     background-color:#F67E7E;
     width: 56px;
     height: 56px;
     border-radius: 50%;
-    transition: transform 0.5s;
+    transition: background-color 0.5s, transform 0.5s;
 }
 .cardBtn:after {
     color: #004047;
@@ -634,13 +644,6 @@ label {
     width: 96px;
     height: 96px;
 }
-.rotate {
-    animation: rotate 0.5s forwards;
-}
-.unRotate {
-    animation: unRotate 0.5s forwards;
-}
-
 .btn-secondary {
     font-weight: 700;
     height: 50px;
