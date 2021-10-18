@@ -21,13 +21,13 @@ Users should be able to:
 - See the correct content for each team member on the About page when the `+` icon is clicked
 
 ### Screenshots
-### DESKTOP SITE
+## DESKTOP SITE
 <img src="screenshots/desktop-pack.png" alt="drawing" width="100%"/>
 
-### TABLET SITE
+## TABLET SITE
 <img src="screenshots/tablet-pack.png" alt="drawing" width="100%"/>
 
-###MOBILE SITE
+## MOBILE SITE
 <img src="screenshots/mobile-pack.png" alt="drawing" width="100%"/>
 
 ### Links
