@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@700;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@600&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | myteam website challenge - Contact</title>
+</head>
+<body>
+  <nav class="desktopNav">
+    <div class="navContent">
+      <div class="leftNavBox">
+        <a href="./index.html"><img src="assets/logo.svg" alt="logo" /></a>
+        <div class="linkBox">
+          <a href="./index.html">home</a>
+          <a href="./about.html">about</a>
+        </div>
+      </div>
+      <div class="rightNavBox">
+        <form style="display: inline" action="./contact.html" method="get">
+          <button id="contact" class="btnPrimary">contact us</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <nav class="mobileNav">
+    <div class="navContent">
+      <div class="leftNavBox">
+        <a href="./index.html"><img src="assets/logo.svg" alt="logo" /></a>
+      </div>
+      <div class="rightNavBox">
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </div>
+    </div>
+    <div id="mobileMenuToggle" class="hide">
+      <div class="shade"></div>
+      <div class="mobileMenu">
+        <p class="exit">x</p>
+        <div class="linkBox">
+          <a href="./index.html">home</a>
+          <a href="./about.html">about</a>
+        </div>
+        <form action="./contact.html" method="get">
+          <button id="contact" class="btnPrimary">contact us</button>
+        </form>
+        <img id="mobileNavImg" src="assets/bg-pattern-about-1-mobile-nav-1.svg" alt="mobileNavImg" />
+      </div>
+    </div>
+    
+  </nav>
+  <main id="contactPage" class="block block-half-pad bg-teal contact">
+    <img id="contactbgImg1" src="assets/bg-pattern-about-2-contact-1.svg" alt="contactbgpattern1" />
+
+    <div class="container row">
+      <div class="half">
+        <h1 class="mb-3">Contact</h2>
+          <h2 class="pink">Ask us about</h2>
+          <div class="contactList pt-3">
+            <div class="listItem">
+              <img src="assets/icon-person.svg" alt="icon-person" />
+              <div>
+                <h3>The quality of our talent network</h3>
+              </div>
+            </div>
+            <div class="listItem">
+              <img src="assets/icon-cog.svg" alt="icon-cog" />
+              <div>
+                <h3>Usage & implementation of our software</h3>
+              </div>
+            </div>
+            <div class="listItem">
+              <img src="assets/icon-cog.svg" alt="icon-cog" />
+              <div>
+                <h3>How we help drive innovation</h3>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="half">
+        <form id="contactForm">
+          <div class="formRow">
+            <input type="text" name="name" placeholder="Name" required></input>
+            <p class="error">This field is required</p>
+          </div>
+          <div class="formRow">
+            <input type="email" name="email" placeholder="Email Address" required></input>
+            <p class="error">This field is required</p>
+          </div>
+          <div class="formRow">
+            <input type="text" name="company" placeholder="Company Name" required></input>
+            <p class="error">This field is required</p>
+          </div>
+          <div class="formRow">
+            <input type="text" name="title" placeholder="Title" required></input>
+            <p class="error">This field is required</p>
+          </div>
+          <div class="formRow">
+            <textarea type="text" name="message" placeholder="Message" required></textarea>
+            <p class="error">This field is required</p>
+          </div>
+          <button type="submit" class="btn-secondary mt-1">submit</button>
+        </form>
+      </div>
+    </div>
+    <img id="contactbgImg2" src="assets/bg-pattern-contact-2.svg" alt="contactbgpattern2" />
+  </main>
+  
+  <footer class="desktop">
+    <div class="footerContent">
+      <div class="footerContentLeft">
+        <div class="w50">
+          <img class="footerLogo" src="assets/logo.svg" alt="logo" />
+          <div class="linkBox">
+            <a href="./index.html">home</a>
+            <a href="./about.html">about</a>
+          </div>
+        </div>
+        <div class="w50">
+          <p>987 Hillcrest Lane</p>
+          <p>Irvine, CA</p>
+          <p>California 92714</p>
+          <p>Call Us : 949-833-7432</p>
+        </div>
+      </div>
+      <div class="footerContentRight">
+        <div class="w50L">
+          <div class="linkBox">
+            <img class="icon" src="assets/icon-facebook.svg" alt="fbicon" />
+            <img class="icon" src="assets/icon-pinterest.svg" alt="pinteresticon" />
+            <img class="icon" src="assets/icon-twitter.svg" alt="twittericon" />
+          </div>
+          <p>Copyright 2020. All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <footer class="tablet">
+    <div class="footerContent">
+      <div class="footerContentLeft">
+          <img class="footerLogo" src="assets/logo.svg" alt="logo" />
+          <div class="linkBox">
+            <a href="./index.html">home</a>
+            <a href="./about.html">about</a>
+          </div>
+          <div id="homeSocials" class="linkBox">
+            <img class="icon" src="assets/icon-facebook.svg" alt="fbicon" />
+            <img class="icon" src="assets/icon-pinterest.svg" alt="pinteresticon" />
+            <img class="icon" src="assets/icon-twitter.svg" alt="twittericon" />
+          </div>
+      </div>
+      <div class="footerContentRight">
+        <div class="w50L">
+          <p>987 Hillcrest Lane</p>
+          <p>Irvine, CA</p>
+          <p>California 92714</p>
+          <p>Call Us : 949-833-7432</p>
+          <br/>
+          <p>Copyright 2020. All Rights Reserved</p>
+          
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@700;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@600&display=swap" rel="stylesheet" />
+  <title>Frontend Mentor | myteam website challenge - Homepage</title>
+</head>
+
+<body>
+  <nav class="desktopNav">
+    <div class="navContent">
+      <div class="leftNavBox">
+        <a href="./index.html"><img src="assets/logo.svg" alt="logo" /></a>
+        <div class="linkBox">
+          <a href="./index.html">home</a>
+          <a href="./about.html">about</a>
+        </div>
+      </div>
+      <div class="rightNavBox">
+        <form style="display: inline" action="./contact.html" method="get">
+          <button id="contact" class="btnPrimary">contact us</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <nav class="mobileNav">
+    <div class="navContent">
+      <div class="leftNavBox">
+        <a href="./index.html"><img src="assets/logo.svg" alt="logo" /></a>
+      </div>
+      <div class="rightNavBox">
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </div>
+    </div>
+    <div id="mobileMenuToggle" class="hide">
+      <div class="shade"></div>
+      <div class="mobileMenu">
+        <p class="exit">x</p>
+        <div class="linkBox">
+          <a href="./index.html">home</a>
+          <a href="./about.html">about</a>
+        </div>
+        <form action="./contact.html" method="get">
+          <button id="contact" class="btnPrimary">contact us</button>
+        </form>
+        <img id="mobileNavImg" src="assets/bg-pattern-about-1-mobile-nav-1.svg" alt="mobileNavImg" />
+      </div>
+    </div>
+    
+  </nav>
+
+  <main>
+    <header class="block bg-teal pt-5">
+      <img id="img1" src="assets/bg-pattern-home-1.svg" alt="bgpattern1" />
+      <div class="container between-row mb-140">
+        <div class="half">
+          <h1>Find the best <span class="pink">talent</span></h1>
+        </div>
+        <div class="half between-col w-40">
+          <div class="blueLine"></div>
+          <p class="home-align">Finding the right people and building high performing teams can
+            be hard. Most companies aren’t tapping into the abundance of global
+            talent. We’re about to change that.</p>
+        </div>
+      </div>
+      <img id="img2" src="assets/bg-pattern-home-2.svg" alt="bgpattern2" />
+    </header>
+
+    <section id="homeSection1" class="block bg-dark">
+      <div class="container between-row">
+        <div class="half w-40">
+          <div class="pinkLine"></div>
+          <h2>Build & manage distributed teams like no one else.</h2>
+        </div>
+        <div class="half mt-5">
+          <div class="listItem">
+            <img src="assets/icon-person.svg" alt="icon-person" />
+            <div>
+              <h3>Experienced Individuals</h3>
+              <p class="body2">Our network is made up of highly experienced professionals who are
+                passionate about what they do.</p>
+            </div>
+          </div>
+          <div class="listItem">
+            <img src="assets/icon-cog.svg" alt="icon-cog" />
+            <div>
+              <h3>Easy to Implement</h3>
+              <p class="body2">Our processes have been refined over years of implementation meaning
+                our teams always deliver.</p>
+            </div>
+          </div>
+          <div class="listItem">
+            <img src="assets/icon-cog.svg" alt="icon-cog" />
+            <div>
+              <h3>Enhanced Productivity</h3>
+              <p class="body2">Our customized platform with in-built analytics helps you manage your
+                distributed teams.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img id="img3" src="assets/bg-pattern-home-3.svg" alt="bgpattern3" />
+    </section>
+
+    <section id="homeSection2" class="block bg-medium">
+      <img id="img4" src="assets/bg-pattern-home-4-about-3.svg" alt="bgimg4" />
+      <div class="container center-col text-center">
+        <h2>Delivering real results for top companies. Some of our
+          <span class="blue">success stories.</span>
+        </h2>
+        <h2 class="new-line-768">success stories.</h2>
+        <div class="row mt-1">
+          <div class="testimonyItem">
+            <img id="quotes" src="assets/icon-quotes.svg" alt="quotes" />
+            <p class="body2">
+              “The team perfectly fit the specialized skill set required. They focused
+              on the most essential features helping us launch the platform eight months
+              faster than planned.”
+            </p>
+            <h3 class="name">Kady Baker</h3>
+            <p class="jobTitle">Product Manager at Bookmark</p>
+            <img class="avatar" src="assets/avatar-kady.jpg" alt="avatartKady" />
+          </div>
+          <div class="testimonyItem">
+            <img id="quotes" src="assets/icon-quotes.svg" alt="quotes" />
+            <p class="body2">
+              “We needed to automate our entire onboarding process. The team came in and
+              built out the whole journey. Since going live, user retention has gone
+              through the roof!”
+            </p>
+            <h3 class="name">Aiysha Reese</h3>
+            <p class="jobTitle">Founder of Manage</p>
+            <img class="avatar" src="assets/avatar-aiysha.jpg" alt="avatartKady" />
+          </div>
+          <div class="testimonyItem">
+            <img id="quotes" src="assets/icon-quotes.svg" alt="quotes" />
+            <p class="body2">
+              “Amazing. Our team helped us build an app that delivered a new experience for
+              hiring a physio. The launch was an instant success with 100k downloads in the
+              first month.”
+            </p>
+            <h3 class="name">Arthur Clarke</h3>
+            <p class="jobTitle">Co-founder of MyPhysio</p>
+            <img class="avatar" src="assets/avatar-arthur.jpg" alt="avatartKady" />
+          </div>
+        </div>
+      </div>
+      <img id="img5" src="assets/bg-pattern-home-5.svg" alt="bgimg5" />
+    </section>
+  </main>
+
+  <section id="readySection" class="block ready-content-pad bg-pink">
+    <img id="img6" src="assets/bg-pattern-home-6-about-5.svg" alt="bgimg6" />
+    <div class="readyContent">
+      <h2 class="darkBlue">Ready to get started?</h2>
+      <form action="./contact.html" method="get">
+        <button class="btnDarkBlue">contact us</button>
+      </form>
+    </div>
+  </section>
+  
+
+  <footer class="desktop">
+    <div class="footerContent">
+      <div class="footerContentLeft">
+        <div class="w50">
+          <img class="footerLogo" src="assets/logo.svg" alt="logo" />
+          <div class="linkBox">
+            <a href="./index.html">home</a>
+            <a href="./about.html">about</a>
+          </div>
+        </div>
+        <div class="w50">
+          <p>987 Hillcrest Lane</p>
+          <p>Irvine, CA</p>
+          <p>California 92714</p>
+          <p>Call Us : 949-833-7432</p>
+        </div>
+      </div>
+      <div class="footerContentRight">
+        <div class="w50L">
+          <div class="linkBox">
+            <img class="icon" src="assets/icon-facebook.svg" alt="fbicon" />
+            <img class="icon" src="assets/icon-pinterest.svg" alt="pinteresticon" />
+            <img class="icon" src="assets/icon-twitter.svg" alt="twittericon" />
+          </div>
+          <p>Copyright 2020. All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <footer class="tablet">
+    <div class="footerContent">
+      <div class="footerContentLeft">
+          <img class="footerLogo" src="assets/logo.svg" alt="logo" />
+          <div class="linkBox">
+            <a href="./index.html">home</a>
+            <a href="./about.html">about</a>
+          </div>
+          <div id="homeSocials" class="linkBox">
+            <img class="icon" src="assets/icon-facebook.svg" alt="fbicon" />
+            <img class="icon" src="assets/icon-pinterest.svg" alt="pinteresticon" />
+            <img class="icon" src="assets/icon-twitter.svg" alt="twittericon" />
+          </div>
+      </div>
+      <div class="footerContentRight">
+        <div class="w50L">
+          <p>987 Hillcrest Lane</p>
+          <p>Irvine, CA</p>
+          <p>California 92714</p>
+          <p>Call Us : 949-833-7432</p>
+          <br/>
+          <p>Copyright 2020. All Rights Reserved</p>
+          
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./index.js"></script>
+</body>
+
+</html>
