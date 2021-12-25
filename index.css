@@ -698,6 +698,9 @@ label {
 .hamburger:hover {
     cursor: pointer;
 }
+.new-line-768 {
+    display: none;
+}
 
 /* animation */
 
@@ -826,6 +829,7 @@ label {
         display: none;
     }
     .new-line-768 {
+        display: block;
         color:#79C8C7;
     }
     #homeSection2 .row {
